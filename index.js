@@ -15,9 +15,10 @@ class ContaCorrente {
     }
 
     depositar(valor){
-        if(valor > 0){
-            this._saldo += valor;
+        if(valor <= 0){
+            return;
         }
+        this._saldo += valor;
     }
 }
 
