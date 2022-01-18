@@ -16,6 +16,10 @@ export class ContaCorrente {
 
     _saldo = 0;
 
+    get saldo(){
+        return this._saldo;
+    }
+
 
     sacar(valor) {
         if (this._saldo >= valor) {
