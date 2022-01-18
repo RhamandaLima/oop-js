@@ -1,6 +1,6 @@
 export class ContaCorrente {
     agencia;
-    cliente;
+    _cliente;
     _saldo = 0;
 
     sacar(valor){
