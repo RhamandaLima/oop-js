@@ -20,4 +20,6 @@ conta2.agencia = 102;
 
 let valor = 200; 
 contaCorrenteRicardo.transferir(valor, conta2);
+
+conta2.saldo = 30000;
 console.log(conta2.saldo);
