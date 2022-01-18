@@ -1,7 +1,13 @@
 export class ContaCorrente {
     agencia;
     _cliente;
+
+    set cliente(novoValor){
+        this._cliente = novoValor;
+    }
+
     _saldo = 0;
+
 
     sacar(valor){
         if (this._saldo >= valor) {
