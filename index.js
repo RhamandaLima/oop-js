@@ -8,7 +8,7 @@ const contaCorrenteRicardo = new ContaCorrente(cliente1, 1001);
 contaCorrenteRicardo.depositar(500);
 const conta2 = new ContaCorrente(cliente2, 102);
 
-let valor = 200; 
+let valor = 200;
 contaCorrenteRicardo.transferir(valor, conta2);
 
 console.log(ContaCorrente.numeroDeContas);
