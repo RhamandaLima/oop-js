@@ -10,6 +10,10 @@ export class ContaCorrente {
         }
     }
 
+    get cliente(){
+        return this._cliente;
+    }
+
     _saldo = 0;
 
 
