@@ -21,7 +21,7 @@ export class Conta {
     }
 
     sacar(valor) {
-        let = taxa = 1;
+        let taxa = 1;
         if(this._tipo == "corrente"){
             taxa = 1.1;
         }
@@ -49,6 +49,10 @@ export class Conta {
     }
 
     transferir(valor, conta) {
+
+        if(this._tipo == "salario"){
+            return;
+        }
 
         const valorSacado = this.sacar(valor);
         conta.depositar(valorSacado);
