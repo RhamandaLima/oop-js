@@ -1,7 +1,8 @@
 export class Funcionario{
-    constructor(){
-        this._nome;
-        this._salario;
-        this._cpf; 
+    constructor(nome, salario, cpf){
+        this._nome = nome;
+        this._salario = salario;
+        this._cpf = cpf; 
+        this._bonificacao = 1;
     }
 }
