@@ -1,5 +1,5 @@
 /* 
-Ser autenticavel significa ter a propriedade "senha".
+Ser autenticavel significa ter o método autenticar.
 */
 
 export class SistemaAutenticacao{
