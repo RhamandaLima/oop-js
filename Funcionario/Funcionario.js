@@ -7,6 +7,10 @@ export class Funcionario{
         this._senha; 
     }
 
+    get senha(){
+        return this._senha;
+    }
+    
     cadastrarSenha(senha){
         this._senha = senha;
     }
