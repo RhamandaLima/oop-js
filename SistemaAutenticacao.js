@@ -1,7 +1,7 @@
 /* 
-Ser autenticavel significa ter o método autenticar.
+-> Ser autenticavel significa ter o método autenticar.
 
-Ducky type: o que interesse é se ele tem o método da propriedade que eu preciso utilizar.
+-> Ducky type: o que interesse é se ele tem o método da propriedade que eu preciso utilizar.
 */
 
 export class SistemaAutenticacao {
